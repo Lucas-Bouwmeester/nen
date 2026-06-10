@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+ul {
+  position: absolute;
+  top: 0;
+}
+
+.container{
+    position: relative;
+    width: 600px;
+    height: 520px;
+    margin: 40px auto;
+}
+
+.hex-lines{
+    position: absolute;
+    margin-top: 50px;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.center{
+    position: absolute;
+    top: 295px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 142px;
+    font-weight: bolder;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.percent{
+    position: absolute;
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+}
+
+.nen{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 10px solid black;
+    cursor: pointer;
+    z-index: 2;
+}
+
+pre {
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+  font-weight: bolder;
+  top: -22px;
+}
+
+.enhancement{
+    top: 55px;
+    left: 245px;
+    background-color: rgb(57, 127, 34);
+}
+
+.enhancement-percent{
+    top: 0px;
+    left: 245px;
+    text-align: center;
+    width: 110px;
+}
+
+.glow-green{
+    box-shadow: 0 0 40px rgb(57, 127, 34);;
+}
+
+.emission{
+    top: 150px;
+    left: 100px;
+    background-color: rgb(228, 191, 65);
+}
+
+.emission-percent{
+    top: 180px;
+    left: -15px;
+    width: 100px;
+    text-align: right;
+}
+
+.glow-yellow{
+    box-shadow:0 0 40px rgb(228, 191, 65);
+}
+
+.transmutation{
+    top: 150px;
+    right: 100px;
+    background-color: rgb(175, 37, 197);
+}
+
+.transmutation-percent{
+    top: 180px;
+    right: -15px;
+    width: 100px;
+    text-align: left;
+}
+
+.glow-purple{
+    box-shadow:0 0 40px rgb(175, 37, 197);
+}
+
+.manipulation{
+    top: 340px;
+    left: 100px;
+    background-color: rgb(190, 190, 190);
+}
+
+.manipulation-percent{
+    bottom: 100px;
+    left: -15px;
+    width: 100px;
+    text-align: right;
+}
+
+.glow-gray{
+    box-shadow: 0 0 40px rgb(65, 65, 65);;
+}
+
+.conjuration{
+    top: 340px;
+    right: 100px;
+    background-color: rgb(203, 43, 42);
+}
+
+.conjuration-percent{
+    bottom: 100px;
+    right: -15px;
+     width: 100px;
+    text-align: left;
+}
+
+.glow-red{
+    box-shadow:0 0 40px rgb(203, 43, 42);;
+}
+
+.specialization{
+    top: 445px;
+    left: 245px;
+    background-color: rgb(49, 110, 177);
+}
+
+.specialization-percent{
+    bottom: -90px;
+    left: 245px;
+    text-align: center;
+    width: 110px;
+}
+
+.glow-blue{
+    box-shadow: 0 0 40px rgb(49, 110, 177);
+}
+
+#button{
+    display: block;
+    margin: 100px auto 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius:8px;
+    background:#222;
+    color:white;
+    cursor:pointer;
+}

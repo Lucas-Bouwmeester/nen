@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nen type - TypeScript Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <ul>
+    <h3>Nen types</h3>
+    <li>Green -> Enhancement</li>
+    <li>Yellow -> Emission</li>
+    <li>Purple -> Transmutation</li>
+    <li>Gray -> Manipulation</li>
+    <li>Red -> Conjuring</li>
+    <li>Blue -> Specialization</li>
+  </ul>
+
+    <div class="container">
+        <svg class="hex-lines" viewBox="0 0 600 520">
+            <polygon
+                points="300,70 450,160 450,340 300,430 150,340 150,160"
+                fill="none"
+                stroke="black"
+                stroke-width="10"
+            />
+        </svg>
+
+        <div class="center">発</div>
+
+        <div class="percent enhancement-percent">0%</div>
+        <div class="percent emission-percent">0%</div>
+        <div class="percent transmutation-percent">0%</div>
+        <div class="percent manipulation-percent">0%</div>
+        <div class="percent conjuration-percent">0%</div>
+        <div class="percent specialization-percent">0%</div>
+
+        <div class="nen enhancement" data-type="Enhancement">
+          <pre>強</pre>
+        </div>
+
+        <div class="nen emission" data-type="Emission">
+          <pre>放</pre>
+        </div>
+
+        <div class="nen transmutation" data-type="Transmutation">
+          <pre>変</pre>
+        </div>
+
+        <div class="nen manipulation" data-type="Manipulation">
+          <pre>操</pre>
+        </div>
+
+        <div class="nen conjuration" data-type="Conjuration">
+          <pre>具</pre>
+        </div>
+
+        <div class="nen specialization" data-type="Specialization">
+          <pre>特</pre>
+        </div>
+
+    </div>
+
+    <button id="button">Roll Nen Type</button>
+  </div>
+    <script type="module" src="dist/nen.js"></script>
+
+</body>
+</html>
